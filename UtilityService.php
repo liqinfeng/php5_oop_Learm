@@ -14,3 +14,6 @@ class UtilityService extends Service
 
 $p = new UtilityService();
 print $p->calculateTax(100);
+
+$d = new UtilityService();
+print $d->calculateTax(900);
